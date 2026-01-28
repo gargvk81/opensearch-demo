@@ -20,9 +20,10 @@ echo ""
 
 # Load sample data
 echo "Loading 15 sample products..."
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 RESPONSE=$(curl -s -X POST http://localhost:8080/api/products/bulk \
   -H "Content-Type: application/json" \
-  -d @sample-products.json)
+  -d @"${SCRIPT_DIR}/../data/sample-products.json")
 
 # Check if successful
 if [ $? -eq 0 ]; then

@@ -52,11 +52,17 @@ Java Source Code:
   • ProductController.java          - REST API endpoints
 
 Data & Testing:
-  • sample-products.json       - 15 sample products for testing
-  • load-sample-data.sh        - Script to load sample data
-  • test-api.sh                - Automated API testing script
+  • data/sample-products.json       - 15 sample products for testing
+  • scripts/load-sample-data.sh     - Script to load sample data
+  • scripts/test-api.sh             - Automated API testing script
 
-Documentation:
+Documentation (in docs/):
+  • docs/QUICKSTART.md              - Quick start guide
+  • docs/ARCHITECTURE.md            - Architecture diagrams and details
+  • docs/GIT-COMMANDS.md            - Git workflow reference
+  • docs/GET-STARTED.txt            - This file
+
+Main Documentation:
   • README.md                  - Comprehensive documentation
   • QUICKSTART.md              - Quick start guide
   • ARCHITECTURE.md            - Architecture diagrams and details
@@ -91,10 +97,10 @@ Documentation:
 └─────────────────────────────────────────────────────────────────────┘
 
   # Load 15 sample products
-  $ ./load-sample-data.sh
+  $ ./scripts/load-sample-data.sh
 
   # Run automated tests
-  $ ./test-api.sh
+  $ ./scripts/test-api.sh
 
 📋 API ENDPOINTS
 

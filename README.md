@@ -233,6 +233,16 @@ opensearch-demo/
 │       │       └── ProductController.java        # REST endpoints
 │       └── resources/
 │           └── application.yml                    # Configuration
+├── docs/
+│   ├── QUICKSTART.md                              # Quick start guide
+│   ├── ARCHITECTURE.md                            # Architecture diagrams
+│   ├── GIT-COMMANDS.md                            # Git workflow reference
+│   └── GET-STARTED.txt                            # Getting started guide
+├── scripts/
+│   ├── load-sample-data.sh                        # Load sample data
+│   └── test-api.sh                                # API testing script
+├── data/
+│   └── sample-products.json                       # Sample product data
 ├── docker-compose.yml                             # OpenSearch setup
 ├── pom.xml                                        # Maven dependencies
 └── README.md                                      # This file

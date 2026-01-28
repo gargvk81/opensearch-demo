@@ -21,7 +21,7 @@ Wait for the Spring Boot application to start (you'll see "Started OpenSearchDem
 ### Step 3: Test the API
 ```bash
 # Run the automated test script
-./test-api.sh
+./scripts/test-api.sh
 
 # Or manually test individual endpoints:
 # Index a product
