@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "MacBook Pro 16-inch",
+    "description": "High performance laptop with M2 Pro chip, 16GB RAM, 512GB SSD. Perfect for developers and creative professionals.",
+    "price": 2499.99,
+    "category": "Electronics",
+    "brand": "Apple"
+  },
+  {
+    "id": "2",
+    "name": "Wireless Gaming Mouse",
+    "description": "Ergonomic wireless gaming mouse with 6 programmable buttons, RGB lighting, and 16000 DPI sensor.",
+    "price": 79.99,
+    "category": "Electronics",
+    "brand": "Logitech"
+  },
+  {
+    "id": "3",
+    "name": "Automatic Coffee Maker",
+    "description": "Programmable drip coffee maker with thermal carafe, 12-cup capacity, and auto-brew timer.",
+    "price": 89.99,
+    "category": "Home Appliances",
+    "brand": "Cuisinart"
+  },
+  {
+    "id": "4",
+    "name": "USB-C Multiport Hub",
+    "description": "7-in-1 USB-C hub with 4K HDMI output, 3 USB 3.0 ports, SD/microSD card readers, and 100W power delivery.",
+    "price": 49.99,
+    "category": "Electronics",
+    "brand": "Anker"
+  },
+  {
+    "id": "5",
+    "name": "LED Desk Lamp",
+    "description": "Adjustable LED desk lamp with touch control, 5 color temperatures, 5 brightness levels, and USB charging port.",
+    "price": 45.99,
+    "category": "Home & Office",
+    "brand": "TaoTronics"
+  },
+  {
+    "id": "6",
+    "name": "Mechanical Keyboard",
+    "description": "RGB mechanical gaming keyboard with Cherry MX switches, programmable keys, and aluminum frame.",
+    "price": 129.99,
+    "category": "Electronics",
+    "brand": "Corsair"
+  },
+  {
+    "id": "7",
+    "name": "Noise Cancelling Headphones",
+    "description": "Premium wireless headphones with active noise cancellation, 30-hour battery life, and premium sound quality.",
+    "price": 299.99,
+    "category": "Electronics",
+    "brand": "Sony"
+  },
+  {
+    "id": "8",
+    "name": "Standing Desk Converter",
+    "description": "Height adjustable standing desk converter with dual monitor support and spacious keyboard tray.",
+    "price": 199.99,
+    "category": "Home & Office",
+    "brand": "Vari"
+  },
+  {
+    "id": "9",
+    "name": "Smart Watch",
+    "description": "Fitness tracker smart watch with heart rate monitor, GPS, sleep tracking, and 7-day battery life.",
+    "price": 249.99,
+    "category": "Electronics",
+    "brand": "Garmin"
+  },
+  {
+    "id": "10",
+    "name": "Portable SSD",
+    "description": "Ultra-fast 1TB portable SSD with USB-C 3.2 Gen 2, up to 1050MB/s read speeds, shock and vibration resistant.",
+    "price": 159.99,
+    "category": "Electronics",
+    "brand": "Samsung"
+  },
+  {
+    "id": "11",
+    "name": "Air Purifier",
+    "description": "HEPA air purifier for large rooms, removes 99.97% of airborne particles, quiet operation with sleep mode.",
+    "price": 229.99,
+    "category": "Home Appliances",
+    "brand": "Dyson"
+  },
+  {
+    "id": "12",
+    "name": "Webcam 1080p",
+    "description": "Full HD 1080p webcam with auto-focus, stereo microphones, and wide-angle lens for video conferencing.",
+    "price": 69.99,
+    "category": "Electronics",
+    "brand": "Logitech"
+  },
+  {
+    "id": "13",
+    "name": "Electric Kettle",
+    "description": "Variable temperature electric kettle with 1.7L capacity, 6 preset temperatures, and keep-warm function.",
+    "price": 79.99,
+    "category": "Home Appliances",
+    "brand": "Breville"
+  },
+  {
+    "id": "14",
+    "name": "Monitor 27-inch 4K",
+    "description": "27-inch 4K UHD monitor with IPS panel, 99% sRGB color gamut, HDR support, and USB-C connectivity.",
+    "price": 449.99,
+    "category": "Electronics",
+    "brand": "Dell"
+  },
+  {
+    "id": "15",
+    "name": "Robot Vacuum",
+    "description": "Smart robot vacuum with mapping, app control, 2000Pa suction, and automatic dirt disposal.",
+    "price": 399.99,
+    "category": "Home Appliances",
+    "brand": "iRobot"
+  }
+]

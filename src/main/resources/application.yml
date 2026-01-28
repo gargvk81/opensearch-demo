@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: opensearch-demo
+
+opensearch:
+  host: localhost
+  port: 9200
+  scheme: http
+  username: admin
+  password: Admin@123
+
+logging:
+  level:
+    com.example: DEBUG
+    org.opensearch: INFO
