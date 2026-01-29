@@ -9,8 +9,8 @@ opensearch:
   host: localhost
   port: 9200
   scheme: http
-  username: admin
-  password: Admin@123
+  username: 
+  password:
 
 logging:
   level:

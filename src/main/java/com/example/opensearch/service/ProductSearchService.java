@@ -2,8 +2,9 @@ package com.example.opensearch.service;
 
 import com.example.opensearch.model.Product;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.opensearch.client.opensearch.OpenSearchClient;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.opensearch.client.opensearch._types.query_dsl.Query;
 import org.opensearch.client.opensearch.core.*;
 import org.opensearch.client.opensearch.core.search.Hit;
@@ -18,12 +19,15 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-@RequiredArgsConstructor
-@Slf4j
 public class ProductSearchService {
 
+    private static final Logger log = LoggerFactory.getLogger(ProductSearchService.class);
     private final OpenSearchClient client;
     private static final String INDEX_NAME = "products";
+
+    public ProductSearchService(OpenSearchClient client) {
+        this.client = client;
+    }
 
     @PostConstruct
     public void init() {
@@ -108,7 +112,7 @@ public class ProductSearchService {
             .query(q -> q
                 .match(m -> m
                     .field(field)
-                    .query(value)
+                    .query(fv -> fv.stringValue(value))
                 )
             )
         );

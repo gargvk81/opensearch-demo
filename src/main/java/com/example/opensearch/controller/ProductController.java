@@ -3,7 +3,8 @@ package com.example.opensearch.controller;
 import com.example.opensearch.model.Product;
 import com.example.opensearch.service.ProductSearchService;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,11 +16,14 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/products")
-@RequiredArgsConstructor
-@Slf4j
 public class ProductController {
 
+    private static final Logger log = LoggerFactory.getLogger(ProductController.class);
     private final ProductSearchService searchService;
+
+    public ProductController(ProductSearchService searchService) {
+        this.searchService = searchService;
+    }
 
     /**
      * Index a single product
